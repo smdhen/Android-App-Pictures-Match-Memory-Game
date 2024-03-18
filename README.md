@@ -1,4 +1,4 @@
-# Pictures-Match-Memory-Game
+# Pictures Match Memory Game
 
 A Picture Match game typically involves matching pairs of pictures hidden behind tiles or cards. The objective of the game is to find all matching pairs within a certain number of attempts or within a time limit.
 
