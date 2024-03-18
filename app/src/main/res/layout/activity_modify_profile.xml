@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".creat"
+    android:background="@drawable/back">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/arr"
+
+
+        android:orientation="vertical"
+        tools:ignore="OnClick">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Login"
+
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="First Name"
+
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="00dp">
+
+
+            <EditText
+                android:id="@+id/nam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/arrform"
+                android:ems="10"
+                android:fontFamily="serif"
+
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="First Name"
+                android:textColor="@color/white"
+
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Secend name"
+
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/nam1"
+                android:layout_width="266dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/arrform"
+                android:ems="10"
+                android:fontFamily="serif"
+
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="Secend name"
+                android:textColor="@color/white"
+
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textVihhe"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Mail"
+
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/email1"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/arrform"
+                android:ems="10"
+                android:fontFamily="serif"
+
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="Mail"
+                android:textColor="@color/white"
+
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/texhhtVie"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Account login"
+
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/login1"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/arrform"
+                android:ems="10"
+                android:fontFamily="serif"
+
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="Account login"
+                android:textColor="@color/white"
+
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textVie"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Password"
+
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/password1"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/arrform"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:password="true"
+
+                android:text="Password"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/modifjy"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/arrbot"
+            android:clickable="true"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:onClick="modify"
+            android:text="Modify "
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold|italic"
+
+
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+</LinearLayout>
+

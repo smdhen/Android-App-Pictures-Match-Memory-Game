@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DBEDCB">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/inn1"
+            android:layout_width="90dp"
+            android:layout_height="62dp"
+
+
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/ar1"
+
+            android:fontFamily="serif"
+
+
+            android:gravity="center"
+
+
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/inn2"
+            android:layout_width="96dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+
+            android:background="@drawable/ar1"
+
+            android:fontFamily="serif"
+            android:gravity="center"
+
+
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold|italic"
+
+
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/inn3"
+            android:layout_width="96dp"
+            android:layout_height="62dp"
+
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="2dp"
+
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/ar1"
+
+            android:fontFamily="serif"
+            android:gravity="center"
+
+
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold|italic"
+
+
+            android:typeface="serif" />
+        <TextView
+            android:id="@+id/inn4"
+            android:layout_width="96dp"
+            android:layout_height="62dp"
+
+
+          android:layout_marginStart="3dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/ar1"
+
+            android:fontFamily="serif"
+
+
+            android:gravity="center"
+
+
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

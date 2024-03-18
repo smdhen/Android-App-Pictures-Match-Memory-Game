@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.picturematch">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PictureMatch">
+        <activity android:name=".Lv5Guest"></activity>
+        <activity android:name=".Lv4Guest" />
+        <activity android:name=".Lv3Guest" />
+        <activity android:name=".Lv2Guest" />
+        <activity android:name=".Lv1Guest" />
+        <activity android:name=".LevlsGuest" />
+        <activity android:name=".Scor" />
+        <activity android:name=".modifyProfile" />
+        <activity android:name=".Lv5" />
+        <activity android:name=".Lv4" />
+        <activity android:name=".Lv3" />
+        <activity android:name=".Lv2" />
+        <activity android:name=".themes" />
+        <activity android:name=".Lv1" />
+        <activity android:name=".Levls" />
+        <activity android:name=".creat" />
+        <activity android:name=".loging" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/back">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/arr"
+
+
+        android:orientation="vertical"
+        tools:ignore="OnClick">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/arrbot"
+            android:clickable="true"
+            android:onClick="loging"
+
+            android:fontFamily="serif"
+            android:gravity="center"
+
+            android:text="Create Account"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:fontFamily="serif"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/arrbot"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:onClick="creat"
+
+
+            android:textSize="26dp"
+
+            android:text="login" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/arrbot"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:clickable="true"
+
+
+            android:text="Get started" />
+    </LinearLayout>
+</LinearLayout>
+
