@@ -21,6 +21,6 @@ Pic of App !
 
 
 <p>
-<img src="https://github.com/smdhen/Pictures-Match-Memory-Game/assets/96498289/c4fbf495-8b15-4d2b-88dd-15cfa0579bb5" width="225"/> <img src="https://github.com/smdhen/Pictures-Match-Memory-Game/assets/96498289/a8bcd78d-bb5e-45d0-b94c-dc958815b69a" width="225"/> <img src="https://github.com/smdhen/Pictures-Match-Memory-Game/assets/96498289/653a06b8-96bb-4c2d-871e-1bbae1b1b4e1" width="225"/> <img src="https://github.com/smdhen/Pictures-Match-Memory-Game/assets/96498289/dd125176-99fc-4a49-a5ca-3fde3ec3c1fa" width="225"/> 
+<img src="https://github.com/smdhen/Pictures-Match-Memory-Game/assets/96498289/c4fbf495-8b15-4d2b-88dd-15cfa0579bb5" width="200"/> <img src="https://github.com/smdhen/Pictures-Match-Memory-Game/assets/96498289/a8bcd78d-bb5e-45d0-b94c-dc958815b69a" width="200"/> <img src="https://github.com/smdhen/Pictures-Match-Memory-Game/assets/96498289/653a06b8-96bb-4c2d-871e-1bbae1b1b4e1" width="200"/> <img src="https://github.com/smdhen/Pictures-Match-Memory-Game/assets/96498289/dd125176-99fc-4a49-a5ca-3fde3ec3c1fa" width="200"/> 
 </p>
 
